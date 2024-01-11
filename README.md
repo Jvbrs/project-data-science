@@ -5,6 +5,7 @@
 This project focuses on data analysis in the field of data science. It includes modules for processing sales data, generating reports, and sending emails with the obtained insights.
 
 ## Project Structure
+ ```bash
 project-data-science/
 ├── src/
 │ ├── init.py
@@ -12,11 +13,9 @@ project-data-science/
 ├── main/
 │ ├── init.py
 │ └── main.py
-├── myvenv/
-│ ├── ... # Virtual environment files
 ├── .gitignore
 └── README.md
-
+ ```
 
 ## Features
 
@@ -27,17 +26,19 @@ project-data-science/
 
 ## Usage
 1. Set up your virtual environment:
+   
     python -m venv myvenv
     source myvenv/bin/activate  # For Unix/Linux
     .\myvenv\Scripts\activate   # For Windows
 
-2. Install dependencies:
+3. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+   - pip install -r requirements.txt
 
-3. Run the main script:
-    python main/main.py
+4. Run the main script:
+   
+   - python main.py
 
 ## Requirements
     - Python 3.x
